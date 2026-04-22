@@ -2,17 +2,17 @@ import React from 'react';
 import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
 import cZeroLogo from './Logos/c_zero.jpg';
 import mgpiLogo from './Logos/mgpi.jpg';
-import artiscience from './Logos/artiscience.jpg';
+import artiscience from './Logos/Artiscience.jpg';
 import vaulte from './Logos/vaulte.jpeg';  
 import afriprime from './Logos/afriprime.jpeg'; 
 
 const Footer: React.FC = () => {
   const partners = [
-      { name: "C-Zero", logo: cZeroLogo, url: 'https://www.c-zero.world/' },
-      { name: "MGPI", logo: mgpiLogo, url: 'https://www.mgpinvestments.co.ls/' },
+      { name: "c-zero", logo: cZeroLogo, url: 'https://www.c-zero.world/' },
+      { name: "mgpi", logo: mgpiLogo, url: 'https://www.mgpinvestments.co.ls/' },
       { name: "Artiscience", logo: artiscience, url: 'https://articulatingscience.org/' },
-      { name: "Vaulte", logo: vaulte, url: 'https://www.vaulte-us.com/' },
-      { name: "Afriprime", logo: afriprime, url: 'https://linkfly.to/afriprime' },
+      { name: "vaulte", logo: vaulte, url: 'https://www.vaulte-us.com/' },
+      { name: "afriprime", logo: afriprime, url: 'https://linkfly.to/afriprime' },
 
   ];
 

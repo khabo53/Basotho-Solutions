@@ -16,7 +16,7 @@ const Header: React.FC = () => {
               alt="Basotho Solutions Logo"
               className="h-14 w-14 rounded-full"
             />
-            <span className="ml-2 text-sm opacity-90">Opportunity Hub</span>
+            <span className="ml-2 text-sm opacity-90">Basotho Solutions</span>
           </div>
           
           <nav className="hidden md:flex space-x-8">
